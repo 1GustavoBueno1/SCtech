@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastramento de professores</h1>
+    </header>
+    <main>
+        <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Insira seu email" required>
+        <br>
+        <label for="idade">Idade</label>
+        <input type="number" name="Idade" id="Idade" placeholder="Insira sua idade" required>
+        <br>
+        <label for="materia">Materia para que vc esta se candidatando</label>
+        <select name="materia" id="main" required>
+            <option value="Matematica">Matemática</option>
+            <option value="Portugues">Português</option>
+            <option value="Biologia">Biologia</option>
+            <option value="Historia">História</option>
+            <option value="Ciencias">Ciências</option>
+            <option value="Geografia">Geografia</option>
+        </select>
+        <br>
+        <label for="Formacao">Formação</label>
+        <select name="Formacao" id="Formacao" required>
+            <option value="Ensino Superior">Ensino Superior</option>
+            <option value="Cursando Mestrado">Cursando Mestrado</option>
+            <option value="Mestrado Completo">Mestrado Completo</option>
+            <option value="Cursando Doutorado">Cursando Doutorado</option>
+            <option value="Doutorado Completo">Doutorado Completo</option>
+        </select>
+        <br>
+        <label for="descricao">Descrição</label>
+        <textarea name="descricao" id="descricao" cols="17" rows="5" required></textarea>
+        <br>
+        <button type="submit">Cadastrar</button>
+        </form>
+
+
+    </main>
+</body>
+</html>
