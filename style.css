@@ -1,0 +1,21 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.title {
+    color:white
+}
+p {
+    color: gold;
+}
+li {
+    color: goldenrod;
+}
+.projeto {
+    color: black;
+}
