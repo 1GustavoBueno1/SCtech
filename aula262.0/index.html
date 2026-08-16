@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .tabuleiro {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            gap: 10px;
+        }
+        .celula {
+            display: flex;
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            font-size: 46px;
+            cursor: pointer;
+        }
+        #reniciar {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+    <div id="tabuleiro-jogo" class="tabuleiro">
+    <button class="celula"></button>
+    <button class="celula"></button>
+    <button class="celula"></button>
+    <button class="celula"></button>
+    <button class="celula"></button>
+    <button class="celula"></button>
+    <button class="celula"></button>
+    <button class="celula"></button>
+    <button class="celula"></button>
+    </div>
+    <button id="reniciar">Reniciar Jogo</button>
+    <script src="script.js"></script>
+</body>
+</html>
